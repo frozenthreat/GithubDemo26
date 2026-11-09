@@ -18,3 +18,14 @@ Console.WriteLine(movie2.ToString());
 MovieRepository movieRepo = new MovieRepository();
 movieRepo.Add(movie1);
 movieRepo.Add(movie2);
+
+Movie? foundMovie = movieRepo.Search(3);
+if (foundMovie == null)
+{
+    Console.WriteLine("Movie not found");
+}
+else { Console.WriteLine(foundMovie.ToString()); }
+
+movieRepo.Delete(2);
+
+movieRepo.PrintAll();

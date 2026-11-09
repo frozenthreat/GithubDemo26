@@ -14,7 +14,7 @@
         _movieList.Add(_movieCount, movie);
     }
 
-    public Movie Search(int movieNo)
+    public Movie? Search(int movieNo)
     {
         return _movieList[movieNo];
     }
@@ -23,5 +23,21 @@
     {
         _movieList.Remove(movieNo);
         --_movieCount;
+    }
+
+    public void WatchAll()
+    {
+        foreach (var movie in _movieList.Values)
+        {
+            movie.Watch();
+        }
+    }
+
+    public void PrintAll()
+    {
+        foreach (var movie in _movieList.Values)
+        {
+            Console.WriteLine(movie.ToString());
+        }
     }
 }
