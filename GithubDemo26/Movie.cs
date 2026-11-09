@@ -29,6 +29,6 @@
 
     public override string ToString()
     {
-        return $"The movie is {Title}, directed by {Director} and released in {Year}.\nIt is {Length} minutes long, and holds a rating of {Rating}.\nYou have watched it {WatchCount} times.";
+        return $"The movie is {Title}, directed by {Director} and released in {Year}.\nIt is {Length} minutes long, and holds a rating of {Rating}.\nYou have watched it {WatchCount} times.\n";
     }
 }
