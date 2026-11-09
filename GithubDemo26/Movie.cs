@@ -1,4 +1,6 @@
-﻿public class Movie
+﻿using GithubDemo26;
+
+public class Movie
 {
     public string Title { get; set; }
     public string Director { get; set; }
