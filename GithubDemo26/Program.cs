@@ -6,7 +6,7 @@ Console.WriteLine(movie1.ToString());
 Console.WriteLine(movie2.ToString());
 
 movie1.Watch();
-movie1.RateMovie(8.6);
+movie1.RateMovie(5.9);
 movie1.Watch();
 
 movie2.Watch();
