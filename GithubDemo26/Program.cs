@@ -1,4 +1,6 @@
-﻿Console.WriteLine("This is a demo of Github");
+﻿using GithubDemo26;
+
+Console.WriteLine("This is a demo of Github");
 
 Movie movie1 = new("Lost Highway", "David Lynch", 1997, 120);
 Movie movie2 = new("Ted", "Seth MacFarlane", 2012, 110);
@@ -14,3 +16,7 @@ movie2.RateMovie(5.2);
 
 Console.WriteLine(movie1.ToString());
 Console.WriteLine(movie2.ToString());
+
+
+
+Minestore67 
