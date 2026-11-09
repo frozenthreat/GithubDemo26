@@ -19,6 +19,9 @@ namespace GithubDemo26
         }
 
 
-
+        public void PrintHej()
+        {
+            Console.WriteLine("Hej");
+        }
     }
 }
