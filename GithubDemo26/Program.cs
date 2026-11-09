@@ -14,3 +14,7 @@ movie2.RateMovie(5.2);
 
 Console.WriteLine(movie1.ToString());
 Console.WriteLine(movie2.ToString());
+
+MovieRepository movieRepo = new MovieRepository();
+movieRepo.Add(movie1);
+movieRepo.Add(movie2);
