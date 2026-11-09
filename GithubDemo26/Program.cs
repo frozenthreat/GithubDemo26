@@ -10,7 +10,7 @@ movie1.RateMovie(8.6);
 movie1.Watch();
 
 movie2.Watch();
-movie2.RateMovie(5.7);
+movie2.RateMovie(5.2);
 
 Console.WriteLine(movie1.ToString());
 Console.WriteLine(movie2.ToString());
